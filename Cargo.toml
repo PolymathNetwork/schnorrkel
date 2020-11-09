@@ -29,8 +29,8 @@ version = "0.5.1"
 default-features = false
 
 [dependencies.curve25519-dalek]
-# git = "https://github.com/dalek-cryptography/curve25519-dalek"
-version = "2.0"
+git = "https://github.com/PolymathNetwork/curve25519-dalek.git"
+branch = "v2-packed-simd"
 default-features = false
 
 [dependencies.ed25519-dalek]
@@ -42,7 +42,7 @@ optional = true
 version = "2.2.1"
 default-features = false
 
-[dependencies.merlin] 
+[dependencies.merlin]
 version = "2.0"
 # features = ["debug-transcript"]
 default-features = false
